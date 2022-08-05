@@ -1,6 +1,6 @@
 {
     "name": "muffe/enum-constraint",
-    "description": "A Symfony Validator constraint that validates of given strings a valid cases in a given PHP 8 Enum",
+    "description": "A Symfony Validator constraint that validates if given strings are valid cases in a given PHP 8 Enum",
     "type": "library",
     "keywords": ["enum", "validator", "constraint"],
     "minimum-stability": "dev",
