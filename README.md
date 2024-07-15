@@ -1,5 +1,5 @@
 # enum-constraint
-A Symfony Validator constraint that validates of given strings a valid cases in a given PHP 8 Enum
+A Symfony Validator constraint that validates if given strings are valid cases in a given PHP 8 Enum
 
 ```
 enum ContactCategory: string
