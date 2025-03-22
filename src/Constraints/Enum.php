@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Muffe\EnumConstraint\Constraints;
 
+use Symfony\Component\Validator\Attribute\HasNamedArguments;
 use Symfony\Component\Validator\Constraint;
 
 /**
@@ -15,6 +16,7 @@ class Enum extends Constraint
 {
     final public const NO_SUCH_CASE_ERROR = '8e6b7234-171a-4389-a4fc-9324586a6869';
 
+    #[HasNamedArguments]
     public function __construct(
         public string $enumType,
         public bool $multiple = false,
